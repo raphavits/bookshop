@@ -2,3 +2,43 @@ body{
     background-color: #333333;
 }
 
+.titulo-principal{
+    color: #813EB6;
+    display: flex;
+    justify-content: center;
+}
+
+.bloco2{
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    background-color: #888586;
+    border: 2px solid #888586;
+    padding: 5px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    width: 220px;
+    
+
+}
+
+label{
+    color: #813EB6;
+    margin: 10px;
+    padding-top: 5px;
+}
+
+select {
+    background-color: #b6b5b4;
+    border-radius: 20px;
+    color: #813EB6;
+    outline: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+
