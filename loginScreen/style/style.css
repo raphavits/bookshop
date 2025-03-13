@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 body{
-    background-color: #333333;
+    background-color: #232428;
 
      
 }
 
 .container{
-    background-color: #505050;
+    background-color: #313338;
     width: 700px;
     height: 400px;
     position: absolute;
@@ -36,7 +36,7 @@ img{
 
 
 .titulo{
-    color: #4f2096;
+    color: #6A5ACD;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 30px;
     white-space: nowrap;
@@ -44,7 +44,7 @@ img{
 }
 
 .esqueceu-senha{
-    color: #4f2096;
+    color: #6A5ACD;
     text-decoration: none;
     font-size: 12px;
     font-family: "Open Sans", sans-serif;
@@ -60,7 +60,7 @@ img{
 }
 
 .registrar{
-    color: #4f2096;
+    color: #6A5ACD;
     outline: none;
     text-decoration: none;
     font-family: "Open Sans", sans-serif;
@@ -126,7 +126,7 @@ img{
 }
 
 .entrar{
-    background-color:#4f2096 ;
+    background-color:#6A5ACD;
     border-radius: 20px;
     border: none;
     color: #b6b5b4;
@@ -148,5 +148,15 @@ img{
     justify-content: center;
     align-items: center;
 }
+
+.eye {
+    color: #b6b5b4;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+
 
 

@@ -3,11 +3,11 @@
 
 
 body{
-    background-color: #333333;
+    background-color: #232428;
 }
 
 .titulo-principal{
-    color: #813EB6;
+    color: #6A5ACD;
     display: flex;
     justify-content: center;
     margin-top: 10px;
@@ -19,50 +19,68 @@ body{
 .bloco2{
     display: flex;
     justify-content: center;
+
 }
 
 input {
-    background-color: #888586;
-    border: 2px solid #888586;
+    background-color: #94989e;
+    border: 2px solid #94989e;
     padding: 5px;
     border-radius: 20px;
     margin-bottom: 20px;
     outline: none;
     width: 220px;
+    color: #ffffff;
     
 
 }
 
 label{
-    color: #813EB6;
+    color: #6A5ACD;
     margin: 10px;
     padding-top: 5px;
+    font-weight: bolder;
 }
 
 select {
-    background-color: #b6b5b4;
+    background-color: #94989e;
     border-radius: 20px;
-    color: #813EB6;
+    color: #6A5ACD;
     outline: none;
     cursor: pointer;
     margin: 10px;
+    font-weight: bolder;
+    width: 90px;
+    height: 24px;
 }
 
 .naosei {
-    margin-top: 20px;
+    margin-top: px;
 }
 
 .container{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    background-color: #313338;
+    width: 300px;
+    height: 700px;
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -10px 10px 15px 2px #1d1d1d;
     
     
     
 }
 
 .prr {
-    background-color: #505050;
+    background-color: #a9a9a9;
     width: 300px;
     height: 700px;
     margin: 30px;
@@ -74,7 +92,55 @@ select {
     display: flex;
     margin: auto;
     
+}
+
+.material-symbols-outlined {
+    width: 20px;
+    height: 20px;
+    color: #6A5ACD;
+    margin-top: -5px;
     
+}
+
+.littlebox {
+    background-color: #94989e;
+    border-radius: 20px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 234px;
+    height: 100px;
+    flex-direction: column;
+
+}
+
+a {
+    color: #6A5ACD;
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: bold;
+    
+}
+
+button {
+    background-color: #6A5ACD;
+    border-radius: 20px;
+    border: none;
+    color: #b6b5b4;
+    font-size: 13px;
+    width: 234px;
+    height: 40px;
+    margin: 5px;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 17px
 
 }
 

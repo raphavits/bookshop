@@ -1,0 +1,35 @@
+body { 
+    background-color: #232428;
+}
+
+.container {
+    background-color: #313338;
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    border-radius: 20px;
+    box-shadow: -10px 10px 15px 2px #1d1d1d;
+    flex-direction: column;
+}
+
+.tituloprincipal {
+    color: #6A5ACD;
+}
+
+input {
+    background-color: transparent;
+    border-color: #b6b5b4;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    width: 220px;
+    color: #ffffff;
+}
