@@ -95,12 +95,11 @@ img{
 
 .senha{
     background-color: transparent;
-    border: 2px solid #b6b5b4;
     padding: 5px;
     color: #b6b5b4;
-    border-radius: 20px;
     outline: none;
     font-family: "Open Sans", sans-serif;
+    all:unset;
 }
 
 .frases{
@@ -157,6 +156,10 @@ img{
     padding: 0;
 }
 
-
+.div-eye {
+    border: 2px solid #b6b5b4;
+    display: flex;
+    border-radius: 20px;
+}
 
 
