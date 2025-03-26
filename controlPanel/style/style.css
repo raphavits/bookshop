@@ -2,19 +2,34 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+}
+
+body { 
+    background-color: #232428;
 }
 
 nav {
     display: flex;
+    background-color: #313338;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
     
-}
-
-nav-itens {
-    list-style: none;
-    display: flex
 }
 
 img {
     width: 200px;
     height: 70px;
+    
+}
+
+.Links {
+    color: #b6b5b4;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
 }
