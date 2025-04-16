@@ -31,6 +31,7 @@ img{
     padding: 10px 10px 10px 30px;
     margin: 0px;
     margin-top: -40px; 
+    user-select: none;
 }
 
 
@@ -40,6 +41,7 @@ img{
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 30px;
     white-space: nowrap;
+    user-select: none;
     
 }
 
@@ -118,6 +120,7 @@ img{
     width: 250px;
     height: 100px;
     align-items: baseline;
+    user-select: none;
 
 }
 
@@ -152,4 +155,25 @@ img{
 
 
 
+@media screen and (max-width: 768px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 600px;
+    }
+
+    .entrar {
+        width: 150px;
+        height: 35px;
+    }
+
+    .entrar {
+        font-size: 17px;
+    }
+
+    .frases {
+        margin-right: 90px;
+    }
+}
 

@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
 * {
     padding: 0;
     margin: 0;
@@ -15,6 +19,7 @@ nav {
     height: 80px;
     align-items: center;
     justify-content: space-between;
+    user-select: none;
     
 }
 
@@ -25,11 +30,118 @@ img {
 }
 
 .Links {
-    color: #b6b5b4;
+    color: #6A5ACD;
     display: flex;
     flex-direction: column;
     list-style: none;
     justify-content: center;
     align-items: center;
     margin-right: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 13px;
+    cursor: pointer;
 }
+
+h1 {
+    color: #6A5ACD;
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+
+.Bloco1 {
+    background-color: #313338;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    color: #b6b5b4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+}
+
+.Bloco2 {
+    background-color: #313338;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    color: #b6b5b4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+}
+
+.Bloco3 {
+    background-color: #313338;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    color: #b6b5b4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+}
+
+.Bloco4 {
+    background-color: #313338;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    color: #b6b5b4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+}
+
+
+.Container2 {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+    margin-top: 170px;
+    user-select: none;
+}
+
+
+@media screen and (max-width: 768px){
+    img {
+        width: 189px;
+        height: 95px;
+    }
+
+    .Container2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-top: -10px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
